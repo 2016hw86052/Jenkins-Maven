@@ -1,22 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 
--<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
 
 <modelVersion>4.0.0</modelVersion>
 
 <groupId>test</groupId>
 
-<artifactId>Maven Project - Charulatha (2016hw86052)</artifactId>
+<artifactId>Maven-Project-Charulatha-(2016hw86052)</artifactId>
 
 <version>1.0-SNAPSHOT</version>
 
 <packaging>jar</packaging>
 
+<licenses>
 
--<licenses>
-
-
--<license>
+<license>
 
 <name>MIT License</name>
 
@@ -26,14 +24,11 @@
 
 </licenses>
 
+<build>
 
--<build>
+<plugins>
 
-
--<plugins>
-
-
--<plugin>
+<plugin>
 
 <groupId>org.apache.maven.plugins</groupId>
 
@@ -47,11 +42,9 @@
 
 </build>
 
+<dependencies>
 
--<dependencies>
-
-
--<dependency>
+<dependency>
 
 <groupId>junit</groupId>
 
@@ -66,7 +59,7 @@
 </dependencies>
 
 
--<properties>
+<properties>
 
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
